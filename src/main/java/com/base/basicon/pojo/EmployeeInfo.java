@@ -8,9 +8,9 @@ public class EmployeeInfo {
     private GenderEnum gender;
     private String username;
     private String age;
-    private int idcard;
+    private int idCard;
     private String address;
-    private String phonenumbers;
+    private String phoneNumbers;
 
     public int getId() {
         return Id;
@@ -44,12 +44,12 @@ public class EmployeeInfo {
         this.age = age;
     }
 
-    public int getIdcard() {
-        return idcard;
+    public int getIdCard() {
+        return idCard;
     }
 
-    public void setIdcard(int idcard) {
-        this.idcard = idcard;
+    public void setIdCard(int idCard) {
+        this.idCard = idCard;
     }
 
     public String getAddress() {
@@ -60,12 +60,12 @@ public class EmployeeInfo {
         this.address = address;
     }
 
-    public String getPhonenumbers() {
-        return phonenumbers;
+    public String getPhoneNumbers() {
+        return phoneNumbers;
     }
 
-    public void setPhonenumbers(String phonenumbers) {
-        this.phonenumbers = phonenumbers;
+    public void setPhoneNumbers(String phonenumbers) {
+        this.phoneNumbers = phonenumbers;
     }
 
     @Override
@@ -75,9 +75,9 @@ public class EmployeeInfo {
                 ", gender=" + gender +
                 ", username='" + username + '\'' +
                 ", age='" + age + '\'' +
-                ", idcard=" + idcard +
+                ", idcard=" + idCard +
                 ", address='" + address + '\'' +
-                ", phonenumbers='" + phonenumbers + '\'' +
+                ", phonenumbers='" + phoneNumbers + '\'' +
                 '}';
     }
 }
